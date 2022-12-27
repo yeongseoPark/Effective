@@ -25,3 +25,5 @@
    WeakReference를 이용하여 new 할당된 객체를 참조
    - 할당된 객체를 해지하기 위해 null을 넣으면 약한 참조중이기에 할당된 객체는 사라지고 WeakReference는 null값 가짐
    - stock클래스 참조
+   - WeakReference를 생성하면 참조가 된 객체는 Reference Queue에 등록됨
+     - 이 참조 대기열에 등록이 되면 gc의 판단에 의해 객체가 해제 가능.
