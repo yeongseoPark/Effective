@@ -1,4 +1,4 @@
-package Chapter2.item3.StaticFactoryMethod;
+package Chapter2.item3PrivateOrEnumforSingleton.StaticFactoryMethod;
 
 public class Elvis {
     private static final Elvis INSTANCE = new Elvis();

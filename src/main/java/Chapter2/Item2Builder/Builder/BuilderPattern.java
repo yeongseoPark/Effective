@@ -1,4 +1,4 @@
-package Chapter2.Item2.Builder;
+package Chapter2.Item2Builder.Builder;
 
 public class BuilderPattern {
     public static class NutritionFacts {

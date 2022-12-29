@@ -1,4 +1,4 @@
-package Chapter2.Item6;
+package Chapter2.Item6avoidUnnecessaryObject;
 
 import java.util.regex.Pattern;
 

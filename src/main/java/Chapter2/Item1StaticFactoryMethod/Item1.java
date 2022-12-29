@@ -1,4 +1,4 @@
-package Chapter2.Item1;
+package Chapter2.Item1StaticFactoryMethod;
 
 import java.math.BigInteger;
 import java.util.*;

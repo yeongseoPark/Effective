@@ -1,4 +1,4 @@
-package Chapter2.item3.PublicStaticFinal;
+package Chapter2.item3PrivateOrEnumforSingleton.PublicStaticFinal;
 
 public class Elvis {
     public static final Elvis INSTANCE = new Elvis();

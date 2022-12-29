@@ -1,4 +1,4 @@
-package Chapter2.Item7;
+package Chapter2.Item7objectReferenceRelease;
 
 import java.util.Arrays;
 import java.util.EmptyStackException;

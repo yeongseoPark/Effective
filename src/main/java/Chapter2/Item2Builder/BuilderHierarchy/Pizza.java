@@ -1,11 +1,11 @@
-package Chapter2.Item2.BuilderHierarchy;
+package Chapter2.Item2Builder.BuilderHierarchy;
 
 import java.util.EnumSet;
 import java.util.Objects;
 import java.util.Set;
 
-import static Chapter2.Item2.BuilderHierarchy.NyPizza.Size.SMALL;
-import static Chapter2.Item2.BuilderHierarchy.Pizza.Topping.*;
+import static Chapter2.Item2Builder.BuilderHierarchy.NyPizza.Size.SMALL;
+import static Chapter2.Item2Builder.BuilderHierarchy.Pizza.Topping.*;
 
 /* 다양한 피자 종류를 표현하는 계층구조의 루트 추상 클래스 */
 public abstract class Pizza {

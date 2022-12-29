@@ -1,6 +1,5 @@
-package Chapter2.Item7;
+package Chapter2.Item7objectReferenceRelease;
 
-import java.io.Console;
 import java.lang.ref.WeakReference;
 
 public class stock {

@@ -1,4 +1,4 @@
-package Chapter2.Item2.JavaBeans;
+package Chapter2.Item2Builder.JavaBeans;
 
 public class JavaBeans {
     public static class NutritionFacts {

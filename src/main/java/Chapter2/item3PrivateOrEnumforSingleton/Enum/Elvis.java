@@ -1,4 +1,4 @@
-package Chapter2.item3.Enum;
+package Chapter2.item3PrivateOrEnumforSingleton.Enum;
 
 public enum Elvis {
     INSTANCE;

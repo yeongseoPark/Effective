@@ -1,4 +1,4 @@
-package Chapter2.Item2.TelescopingConstructor;
+package Chapter2.Item2Builder.TelescopingConstructor;
 
 public class TelescopingConstructor {
     /* 점층적 생성자 */

@@ -1,4 +1,4 @@
-package Chapter2.Item5;
+package Chapter2.Item5DependencyInjection;
 
 import java.util.Objects;
 
