@@ -22,6 +22,4 @@ public final class PhoneNumber {
         PhoneNumber pn = (PhoneNumber) o; // 3. 입력을 올바른 타입으로 형변환
         return pn.lineNum == lineNum && pn.prefix == prefix && pn.areaCode == areaCode; // 4. 핵심 필드들의 일치 하나씩 검사
     }
-
-
 }
