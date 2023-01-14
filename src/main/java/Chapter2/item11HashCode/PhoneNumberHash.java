@@ -1,9 +1,10 @@
 package Chapter2.item11HashCode;
 
+import java.math.BigInteger;
 import java.util.HashMap;
 import java.util.Map;
 
-class PhoneNumber {
+class PhoneNumber implements Cloneable {
      private final short areaCode, prefix, lineNum;
 
      public PhoneNumber(short areaCode, short prefix, short lineNum) {
@@ -15,6 +16,18 @@ class PhoneNumber {
      private static short rangeCheck(int val, int max, String arg) {
          if (val < 0 || val > max) throw new IllegalArgumentException(arg + " : " + val);
          return (short) val;
+     }
+
+     /** item13 : 가변 상태를 참조하지 않는 클래스용의 clone 메서드
+      * 재정의한 메서드(clone)의 반환타입(PhoneNumber)는
+      * 상위클래스의 메서드가 반환하는 타입(Object)의 하위타입(PhoneNumber)일 수 있다.
+      * **/
+     @Override public PhoneNumber clone() {
+         try {
+             return (PhoneNumber) super.clone();
+         } catch (CloneNotSupportedException e) {
+             throw new AssertionError();
+         }
      }
 
      @Override public boolean equals(Object o) {
